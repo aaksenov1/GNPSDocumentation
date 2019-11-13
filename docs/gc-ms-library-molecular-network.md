@@ -19,7 +19,7 @@ The **"Search Option" section** in the job window allows importing files needed 
 
 (4) Library files have to be added. Each user should add their libraries on GNPS by following the instructions [here](batchupload.md), or by uploading them in .mgf format (drag and drop on “Upload File” section). 
 
-(5) The carbon marker table has to be added. This table must have one “Compound_Name” column that includes the name and the number of carbon into parentheses, and another column named “RT_Query” with the retention time in seconds. Readers following the tutorial can use the following carbon marker table file [GC_Covats_SKIN](static/gc_kovats_skin.csv).
+(5) The carbon marker table can  be added (optional). This table must have one “Compound_Name” column that includes the name and the number of carbon into parentheses, and another column named “RT_Query” with the retention time in seconds. The values are separated by semicolon. Readers following the tutorial can use the following carbon marker table file [GC_Kovats_SKIN](static/gc_kovats_skin.csv) a a template. The file can also be created from the raw experimental chromatograms of the RI markers using MZMine2 as described in this video tutorial: https://youtu.be/XodHMJcuwnk
 
 ![img](img/GC-MS_documentation/Fig_9.png)
 
